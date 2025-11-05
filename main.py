@@ -15,7 +15,6 @@ def send_command(command):
         pass
         # print("⚠ Failed to send command to ESP8266:", e)
 
-
 OFF_KEYWORDS = ["off light", "turn off the light", "turn off light", "good night","light off","off the light","light turn off"]
 ON_KEYWORDS  = ["on light", "turn on the light","turn on light", "good morning","light on","on the light","light turn on"]
 
@@ -50,3 +49,4 @@ def live_voice_to_text():
 
 if __name__ == "__main__":
     live_voice_to_text()
+
